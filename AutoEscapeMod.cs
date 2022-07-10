@@ -1,6 +1,5 @@
 ﻿using Assets.Scripts.Models.Bloons.Behaviors;
 using Assets.Scripts.Simulation.Bloons;
-using Assets.Scripts.Unity;
 using Assets.Scripts.Unity.UI_New.InGame;
 using AutoEscape;
 using BTD_Mod_Helper;
@@ -21,6 +20,7 @@ public class AutoEscapeMod : BloonsTD6Mod
             if (!InGame.instance.quitting)
             {
                 InGame.instance.Quit();
+                
                 ModHelper.Msg<AutoEscapeMod>("You're Welcome.");
             }
             return false;

@@ -2,7 +2,7 @@
 
 # AutoEscape
 
-## NOTE: This version of the mod requires BTD6 Mod Helper >v3.0 and MelonLoader >v0.6
+## NOTE: This alpha version of the mod requires BTD6 Mod Helper >v3.0, see [here](https://github.com/doombubbles/BTD6-Mods#readme) for the stable mods
 
 A simple mod to automatically quit to the main menu when a Bloon would otherwise leak and kill you.
 
@@ -11,7 +11,7 @@ You won't be Black Bordering any maps with this, but you should at least save th
 
 **Changelog**
 
-v1.0.3 Update for Mod Helper v3.0
+v1.0.4 Update for Mod Helper v3.0
 
 v1.0.3 Fixed interaction with Golden Bloon
 

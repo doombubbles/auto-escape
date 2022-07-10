@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net48</TargetFramework>
         <RootNamespace>AutoEscape</RootNamespace>
-        <ImplicitUsings>enable</ImplicitUsings>
         <Configurations>Debug;Release</Configurations>
         <Nullable>enable</Nullable>
         <AssemblyName>AutoEscape</AssemblyName>
+        <LangVersion>10</LangVersion>
     </PropertyGroup>
     
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -20,8 +20,5 @@
     </PropertyGroup>
     
     <Import Project="..\btd6.targets" />
-    <ItemGroup>
-        <Reference Include="$(BloonsTD6)\Mods\BloonsTD6 Mod Helper.dll" />
-    </ItemGroup>
 
 </Project>
