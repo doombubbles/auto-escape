@@ -36,8 +36,7 @@ jobs:
       - name: Extract Latest MelonLoader
         if: env.MELONLOADER_BRANCH == ''
         shell: bash
-        run: |
-          unzip MelonLoader.x64.zip -d ${{ env.BLOONSTD6 }}
+        run: unzip MelonLoader.x64.zip -d ${{ env.BLOONSTD6 }}
 
 
       - name: Download Specific MelonLoader
@@ -87,9 +86,8 @@ jobs:
 
 
       - name: Download btd6.targets
-        uses: wei/wget@v1
-        with:
-          args: https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/${{ env.MOD_HELPER_BRANCH }}/BloonsTD6%20Mod%20Helper/btd6.targets
+        shell: bash
+        run: wget https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/${{ env.MOD_HELPER_BRANCH }}/BloonsTD6%20Mod%20Helper/btd6.targets
 
 
       - name: Setup .NET
