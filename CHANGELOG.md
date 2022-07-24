@@ -1,6 +1,11 @@
 # Changelog
 
-v1.0.4 Update for Mod Helper v3.0
+### v1.1.0
+
+- Update for Mod Helper v3.0
+
+## Original
+
 
 v1.0.3 Fixed interaction with Golden Bloon
 

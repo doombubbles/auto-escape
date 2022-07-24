@@ -1,1 +1,1 @@
-Testing this latest based release body system
+- Update for Mod Helper v3.0
