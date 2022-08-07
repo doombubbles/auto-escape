@@ -15,7 +15,7 @@ public class AutoEscapeMod : BloonsTD6Mod
     public override bool PreBloonLeaked(Bloon bloon)
     {
         if (bloon.GetModifiedTotalLeakDamage() >= InGame.instance.bridge.GetHealth() + InGame.Bridge.simulation.Shield
-            && !InGame.instance.IsSandbox && !bloon.bloonModel.HasBehavior<GoldenBloonModel>())
+            && !InGameData.CurrentGame.IsSandbox && !bloon.bloonModel.HasBehavior<GoldenBloonModel>())
         {
             if (!InGame.instance.quitting)
             {
