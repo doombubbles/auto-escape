@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Models.Bloons.Behaviors;
-using Assets.Scripts.Simulation.Bloons;
-using Assets.Scripts.Unity.UI_New.InGame;
+﻿using Il2CppAssets.Scripts.Models.Bloons.Behaviors;
+using Il2CppAssets.Scripts.Simulation.Bloons;
+using Il2CppAssets.Scripts.Unity.UI_New.InGame;
 using AutoEscape;
 using BTD_Mod_Helper;
 using BTD_Mod_Helper.Extensions;
